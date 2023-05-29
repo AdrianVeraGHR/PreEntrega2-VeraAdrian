@@ -63,11 +63,6 @@ main div {
     flex-flow: row nowrap;
 }
 
-.pack-servicios {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
 main form {
     width: 80%;
     display: flex;
@@ -154,6 +149,12 @@ footer div ul li {
         width: 500px;
         height: 300px;
     }
+
+    .pack-servicios {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -205,6 +206,12 @@ footer div ul li {
     .img_us {
         width: calc(20vw - 1vw);
         height: calc(20vh - 1vh);
+    }
+
+    .pack-servicios {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
     }
 }
 
