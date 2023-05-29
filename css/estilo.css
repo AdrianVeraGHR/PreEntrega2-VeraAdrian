@@ -16,7 +16,7 @@ nav {
 }
 
 main {
-    background-color: lightcyan;
+    background-color: #51E1DF;
     grid-area: main;
 }
 
@@ -48,14 +48,6 @@ nav ul li a {
     font-weight: bolder;
     text-decoration: none;
     color: #000;
-}
-
-main {
-    background-color: #51E1DF;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-between;
 }
 
 main div {
@@ -131,18 +123,16 @@ footer div ul li {
     }
 
     main {
-        background-color: #51E1DF;
         display: flex;
         flex-flow: column nowrap;
-        align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         padding: 10px;
     }
 
     footer {
         background-color: #215C5B;
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column wrap;
         align-items: center;
         justify-content: space-around;
     }
@@ -150,6 +140,11 @@ footer div ul li {
     .img_us {
         width: 25vw;
         height: 25vh;
+    }
+
+    .img_job{
+        width: 500px;
+        height: 300px;
     }
 }
 
@@ -172,6 +167,15 @@ footer div ul li {
         display: flex;
         flex-flow: nowrap row;
         justify-content: right space-between;
+    }
+
+    main {
+        background-color: #51E1DF;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
     }
 
     nav ul li {
