@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -27,6 +27,7 @@ footer {
 p {
     font-family: tipo2;
     text-align: justify;
+    margin: 10px;
 }
 
 h1 {
@@ -135,6 +136,7 @@ footer div ul li {
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-between;
+        padding: 10px;
     }
 
     footer {
@@ -143,6 +145,11 @@ footer div ul li {
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-around;
+    }
+
+    .img_us {
+        width: 25vw;
+        height: 25vh;
     }
 }
 
@@ -181,6 +188,11 @@ footer div ul li {
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .img_us {
+        width: calc(20vw - 1vw);
+        height: calc(20vh - 1vh);
     }
 }
 
